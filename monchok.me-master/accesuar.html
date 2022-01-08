@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monchok.me - интернет магазин</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="./fonts/OpenSans/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.css" />
+    <link rel="stylesheet" href="./css/styles.min.css" />
+    <link rel="stylesheet" href="./css/response.min.css" />
+</head>
+
+<body>
+
+    <!-- МЕНЮ -->
+    <div class="page_wrapper">
+        <div class="page_wrapper_header">
+            <div class="container">
+                <header class="page_header">
+                    <div class="telephone">
+                        <div class="menu_mobile"><a class="fas fa-bars"></a></div>
+                        <a href="tel:+996990909113" class="fas fa-phone-alt ">&nbsp;
+                            <span>+996 990 909 113</span></a>
+                    </div>
+                    <div class="logo">
+                        <a href="index.html"><img src="./img/icons/logo.gif" alt="" /></a>
+                    </div>
+                    <div class="page_left_menu">
+                        <a href="cart.html" class="top_header_cart">
+                            <i class="fa fa-shopping-cart "></i>
+                            <span>9</span>
+                        </a>
+                        <a class="search_top">
+                            <i class="fa fa-search "></i>
+                        </a>
+                    </div>
+                </header>
+                <div class="menu_header">
+                    <div class="menu_header_top"><i class="fas fa-times"></i></div>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li class="dropdown">
+                            <a class="dropbtn">Категории <i class="fas fa-caret-down"></i></a>
+                            <div id="myDropdown" class="dropdown-content">
+                                <div class="container">
+                                    <a href="jewelry.html">ОЖЕРЕЛЬЯ</a>
+                                    <a href="ring.html">КОЛЬЦА</a>
+                                    <a href="bracelet.html">БРАСЛЕТЫ</a>
+                                    <a href="earrings.html">Серьги</a>
+                                    <a href="accesuar.html">Аксессуары</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="about.html">О компани</a></li>
+                    </ul>
+                    <div class="help_me">
+                        <a href="tel: +996990909113"><i class="fas fa-phone-alt"></i>+996 990 909 113</a>
+                        <a href="https://wa.me/+996990909113"><i class="fab fa-whatsapp soc"></i>+996 990 909 113</a>
+                    </div>
+                </div>
+                <div class="search_block">
+                    <div class="container">
+                        <form>
+                            <input type="text" placeholder="Введите что то...." />
+                            <button class="search_btn"><i class="fa fa-search"></i></button>
+                            <button class="cancel_search_btn">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bg head category -->
+    <section class="top_caregory_block accesuar_bg">
+        <div class="container">
+            <h3 class="titleTopCategory">Аксессуары</h3>
+        </div>
+    </section>
+    <!-- category jewelry -->
+    <section class="category">
+        <div class="container">
+            <!-- Фильтер -->
+            <div class="filter">
+                <div class="container">
+                    <div class="filter_show"><div><span>Фильтер</span> <i class="fas fa-chevron-down"></i></div></div>
+                    <form>
+                        <div class="form_control">
+                            <div>
+                                <h4>Цена</h4>
+                                <input type="number" placeholder="Цена от">
+                                <input type="number" placeholder="Цена до">
+                            </div>
+
+                            <div>
+                                <h4>Цвет</h4>
+                                <select name="colors">
+                                    <option value="gold">Золоте</option>
+                                    <option value="roz">Розовые</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <h4>Металь</h4>
+                                <select name="metals">
+                                    <option value="gold">Золото</option>
+                                    <option value="roz">Серебро</option>
+                                    <option value="roz">Стал</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="btn_submit_filter">
+                            <button type="submit">Применить</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+            <div class="top_text-prod">
+                <ul>
+                    <li><a href="index.html">Главная</a> </li>
+                    <li><a href="#">Аксессуары</a> </li>
+                </ul>
+            </div>
+            <div class="product_items">
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Koltsevidny-braslet-ot-BVLGARI-rozovoe-zoloto/p/377883206">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2424062790.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Koltsevidny-braslet-ot-BVLGARI-rozovoe-zoloto/p/377883206">Кольцевидный браслет от BVLGARI/ розовое золото</a> </b>
+                        <p class="price">990сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Pozolochennye-braslety-Simona/p/376899003">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2431127044.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Pozolochennye-braslety-Simona/p/376899003">Позолоченные браслеты  Simona</a> </b>
+                        <p class="price">1 120сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Blestyaschie-imennye-zakolki-Bad-Girl-Stack/p/376973484">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2424907748.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Blestyaschie-imennye-zakolki-Bad-Girl-Stack/p/376973484">Блестящие именные заколки 'Bad Girl Stack'</a> </b>
+                        <p class="price">330сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Vecherny-Blestyaschy-obodok/p/377608096">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2424934520.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Vecherny-Blestyaschy-obodok/p/377608096">Вечерний Блестящий ободок</a> </b>
+                        <p class="price">440сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kruzhevnoy-obodok-so-strazami/p/376991246">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2424941114.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kruzhevnoy-obodok-so-strazami/p/376991246">Кружевной ободок со стразами</a> </b>
+                        <p class="price">570сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Aksessuary-dlya-ochkov-i-podveska-dlya-maski/p/370848029">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2424899120.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Aksessuary-dlya-ochkov-i-podveska-dlya-maski/p/370848029">Аксессуары для очков и подвеска для маски</a> </b>
+                        <p class="price">230сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Aksessuary-dlya-ochkov-i-podveska-dlya-maski/p/375283751">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2424894396.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Aksessuary-dlya-ochkov-i-podveska-dlya-maski/p/375283751">Аксессуары для очков и подвеска для маски</a> </b>
+                        <p class="price">220сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Blestyaschy-Akssesuar-dlya-volos/p/376997967">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2431053722.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Blestyaschy-Akssesuar-dlya-volos/p/376997967">Блестящий Акссесуар для волос</a> </b>
+                        <p class="price">490сом</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ПРЕИМУЩЕСТВО ЭЛЕКТРОННОГО БУТИКА -->
+    <section class="advantages">
+        <div class="container">
+            <h1 class="text_title">преимущество электронного бутика</h1>
+            <div class="advantages__items">
+                <div class="advantages__item">
+                    <img class="advantages_icons" src="./img/icons/return.svg" alt="">
+                    <p class="advantages_text">Бесплатный возврат</p>
+                    <p class="advantages_inlinetext"> Мы возвращаем ваши деньги<br> если в течении 
+                        <b>10</b>-дней вы <br> не получил товар
+                    </p>
+                </div>
+                <div class="advantages__item">
+                    <img class="advantages_icons" src="./img/icons/delivery.svg" alt="">
+                    <p class="advantages_text">Бесплатный доставка</p>
+                    <p class="advantages_inlinetext"><b>Monchok.me</b> предлагает доставка <br>
+                        при покупке на сумму более <br>
+                        <b>2000сомов</b> <br>
+                    </p>
+                </div>
+                <div class="advantages__item">
+                    <img class="advantages_icons" src="./img/icons/gift-solid.svg" alt="">
+                    <p class="advantages_text">искусство дарить</p>
+                    <p>Ваш заказ <b>Monchok.me</b> <br>
+                        сублимирован в уникальной <br>
+                       фирменной каробке <b>Monchok.me</b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- subscribe -->
+    <div class="subscribe">
+        <div class="container">
+            <p>Введите свой адрес электронной почты, чтобы получать новости.</p>
+            <form>
+                <input type="email" placeholder="Email" name="emailSub">
+                <button class="btn_cart">Подписаться</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="help">
+                <h3>ПОДПИСЫВАЙТЕСЬ НА НАС</h3>
+                <ul>
+                    <li><a href="#"><i class="fab fa-telegram soc"></i>+996 990 909 113</a></li>
+                    <li><a href="https://wa.me/996990909113"><i class="fab fa-whatsapp soc"></i>+996 990 909 113</a></li>
+                    <li><a href="https://instagram.com/monchok.me"><i class="fab fa-instagram soc"></i>monchok.me</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Категории</h3>
+                <ul>
+                    <li><a href="jewelry.html">ОЖЕРЕЛЬЯ</a></li>
+                    <li><a href="bracelet.html">БРАСЛЕТЫ</a></li>
+                    <li><a href="earrings.html">Серьги</a></li>
+                    <li><a href="ring.html">КОЛЬЦА</a></li>
+                    <li><a href="accesuar.html">Аксессуары</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Меню сайта</h3>
+                <ul>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="about.html">О компани</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/jquery-2.1.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

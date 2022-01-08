@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monchok.me - интернет магазин</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="./fonts/OpenSans/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.css" />
+    <link rel="stylesheet" href="./css/styles.min.css" />
+    <link rel="stylesheet" href="./css/response.min.css" />
+</head>
+
+<body>
+
+    <!-- МЕНЮ -->
+    <div class="page_wrapper">
+        <div class="page_wrapper_header">
+            <div class="container">
+                <header class="page_header">
+                    <div class="telephone">
+                        <div class="menu_mobile"><a class="fas fa-bars"></a></div>
+                        <a href="tel:+996990909113" class="fas fa-phone-alt ">&nbsp;
+                            <span>+996 990 909 113</span></a>
+                    </div>
+                    <div class="logo">
+                        <a href="index.html"><img src="./img/icons/logo.gif" alt="" /></a>
+                    </div>
+                    <div class="page_left_menu">
+                        <a href="cart.html" class="top_header_cart">
+                            <i class="fa fa-shopping-cart "></i>
+                            <span>9</span>
+                        </a>
+                        <a class="search_top">
+                            <i class="fa fa-search "></i>
+                        </a>
+                    </div>
+                </header>
+                <div class="menu_header">
+                    <div class="menu_header_top"><i class="fas fa-times"></i></div>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li class="dropdown">
+                            <a class="dropbtn">Категории <i class="fas fa-caret-down"></i></a>
+                            <div id="myDropdown" class="dropdown-content">
+                                <div class="container">
+                                    <a href="jewelry.html">ОЖЕРЕЛЬЯ</a>
+                                    <a href="ring.html">КОЛЬЦА</a>
+                                    <a href="bracelet.html">БРАСЛЕТЫ</a>
+                                    <a href="earrings.html">Серьги</a>
+                                    <a href="accesuar.html">Аксессуары</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="about.html">О компани</a></li>
+                    </ul>
+                    <div class="help_me">
+                        <a href="tel: +996990909113"><i class="fas fa-phone-alt"></i>+996 990 909 113</a>
+                        <a href="https://wa.me/+996990909113"><i class="fab fa-whatsapp soc"></i>+996 990 909 113</a>
+                    </div>
+                </div>
+                <div class="search_block">
+                    <div class="container">
+                        <form>
+                            <input type="text" placeholder="Введите что то...." />
+                            <button class="search_btn"><i class="fa fa-search"></i></button>
+                            <button class="cancel_search_btn">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bg head category -->
+    <section class="top_caregory_block jewelry_bg">
+        <div class="container">
+            <h3 class="titleTopCategory">ОЖЕРЕЛЬЯ</h3>
+        </div>
+    </section>
+    <!-- category jewelry -->
+    <section class="category">
+        <div class="container">
+            <!-- Фильтер -->
+            <div class="filter">
+                <div class="container">
+                    <div class="filter_show">
+                        <div><span>Фильтер</span> <i class="fas fa-chevron-down"></i></div>
+                    </div>
+                    <form>
+                        <div class="form_control">
+                            <div>
+                                <h4>Цена</h4>
+                                <input type="number" placeholder="Цена от">
+                                <input type="number" placeholder="Цена до">
+                            </div>
+
+                            <div>
+                                <h4>Цвет</h4>
+                                <select name="colors">
+                                    <option value="gold">Золоте</option>
+                                    <option value="roz">Розовые</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <h4>Металь</h4>
+                                <select name="metals">
+                                    <option value="gold">Золото</option>
+                                    <option value="roz">Серебро</option>
+                                    <option value="roz">Стал</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="btn_submit_filter">
+                            <button type="submit">Применить</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+            <!-- link category -->
+            <div class="top_text-prod">
+                <ul>
+                    <li><a href="index.html">Главная</a> </li>
+                    <li><a href="#">ОЖЕРЕЛЬЯ</a> </li>
+                </ul>
+            </div>
+            <!-- Products -->
+            <div class="product_items">
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Nabor-iz-kollektsii-BVLGARI-IX-XVII/p/377293826">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2431283006.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Nabor-iz-kollektsii-BVLGARI-IX-XVII/p/377293826">Набор из коллекции BVLGARI IX-XVII</a> </b>
+                        <p class="price">3 260сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kulon-Camilla/p/377504064">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2426942330.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kulon-Camilla/p/377504064">Кулон 'Camilla'</a> </b>
+                        <p class="price">690сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kolye-Tsepnaya-Reaktsiya-s-pave/p/377414241">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2419983435.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kolye-Tsepnaya-Reaktsiya-s-pave/p/377414241">Колье 'Цепная Реакция' с паве</a> </b>
+                        <p class="price">1 490сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kolye-s-dragotsennym-kamnem-40sm/p/377504573">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2420049205.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kolye-s-dragotsennym-kamnem-40sm/p/377504573">Колье с  драгоценным камнем 40см</a> </b>
+                        <p class="price">980сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kolye-Grushevidnoy-ogranki/p/376137869">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2410062508.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kolye-Grushevidnoy-ogranki/p/376137869">Колье Грушевидной огранки</a> </b>
+                        <p class="price">799сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kolye-Bliznetsy/p/370848027">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2402051817.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kolye-Bliznetsy/p/370848027">Колье Близнецы</a> </b>
+                        <p class="price">7 990сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kolye-bizhuteriya-stilnogo-dizayna-BVLGARI-s-koltsom-i-bulavkoy-kopiya-1-1/p/377837818">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2422819985.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kolye-bizhuteriya-stilnogo-dizayna-BVLGARI-s-koltsom-i-bulavkoy-kopiya-1-1/p/377837818">Колье-бижутерия стильного дизайна BVLGARI с кольцом и булавкой копия 1:1</a> </b>
+                        <p class="price">1 680сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kolye-bizhuteriya-vysshego-kachestva-Twinkle-Star/p/377541670">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2420572176.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kolye-bizhuteriya-vysshego-kachestva-Twinkle-Star/p/377541670">Колье-бижутерия высшего качества 'Twinkle Star'</a> </b>
+                        <p class="price">670сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kolye-bizhuteriya-Heart-Twinkle-vysokogo-kachestva/p/377887974">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2430949746.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kolye-bizhuteriya-Heart-Twinkle-vysokogo-kachestva/p/377887974">Колье-бижутерия 'Heart Twinkle' высокого качества</a> </b>
+                        <p class="price">875сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kolye-bizhuteriya-Butterfly-effect/p/377891422">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2424209219.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kolye-bizhuteriya-Butterfly-effect/p/377891422">Колье-бижутерия 'Butterfly effect'</a> </b>
+                        <p class="price">890сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kolye-Sugar-Crystals-bizhuteriya/p/377605590">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2420566558.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kolye-Sugar-Crystals-bizhuteriya/p/377605590">Колье 'Sugar Crystals' бижутерия</a> </b>
+                        <p class="price">570сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kolye-Move-Uno-ot-yuvelirnogo-doma-Messika-Parizh/p/377133227">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2417696995.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kolye-Move-Uno-ot-yuvelirnogo-doma-Messika-Parizh/p/377133227">Колье 'Move Uno' от ювелирного дома Мессика Париж</a> </b>
+                        <p class="price">5 390сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kolye-Move-Uno-2-ryada-ot-yuvelirnogo-doma-Messika-Parizh/p/377206530">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2417698294.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kolye-Move-Uno-2-ryada-ot-yuvelirnogo-doma-Messika-Parizh/p/377206530">Колье 'Move Uno' 2 ряда от ювелирного дома Мессика Париж</a> </b>
+                        <p class="price">3 390сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kolye-Janata-iz-sterlingovogo-serebra/p/370848028">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2410094280.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kolye-Janata-iz-sterlingovogo-serebra/p/370848028">Колье 'Janata'  из стерлингового серебра</a> </b>
+                        <p class="price">1 299сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kolye-Crystal-Twinkle-bizhuteriya-vysokogo-kachestva/p/377530659">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2420566683.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kolye-Crystal-Twinkle-bizhuteriya-vysokogo-kachestva/p/377530659">Колье 'Crystal Twinkle' бижутерия высокого качества</a> </b>
+                        <p class="price">780сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kolye-BVLGARI-XI-XVIII-lyuks-replika/p/377884489">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2424226848.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kolye-BVLGARI-XI-XVIII-lyuks-replika/p/377884489">Колье 'BVLGARI' XI-XVIII люкс реплика</a> </b>
+                        <p class="price">1 290сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Kolye-18K-zolota-ot-BVLGARI/p/377000877">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2426937172.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Kolye-18K-zolota-ot-BVLGARI/p/377000877">Колье 18K золота от BVLGARI</a> </b>
+                        <p class="price">2 490сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Zhemchuzhnoe-kolye-s-perekhodom/p/377004755">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2415677456.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Zhemchuzhnoe-kolye-s-perekhodom/p/377004755">Жемчужное колье с переходом</a> </b>
+                        <p class="price">799сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Zhemchuzhnoe-kolye/p/376999156">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2415678115.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Zhemchuzhnoe-kolye/p/376999156">Жемчужное колье</a> </b>
+                        <p class="price">990сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Blestyaschy-braslet-7MM/p/377010352">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2431060928.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Blestyaschy-braslet-7MM/p/377010352">Блестящий браслет 7ММ</a> </b>
+                        <p class="price">890сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/V-obrazny-Zolotoy-kulon/p/377133222">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2424983591.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/V-obrazny-Zolotoy-kulon/p/377133222">V-образный Золотой кулон</a> </b>
+                        <p class="price">2 780сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/4-kh-sloynoe-kolye-bizhuteriya-Crystals-Stack/p/377604574">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2420554649.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/4-kh-sloynoe-kolye-bizhuteriya-Crystals-Stack/p/377604574">4-х слойное колье бижутерия 'Crystals Stack'</a> </b>
+                        <p class="price">590сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Tsvetnye-kulony-v-stile-bokho/p/376890760">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2426915917.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Tsvetnye-kulony-v-stile-bokho/p/376890760">Цветные кулоны в стиле бохо</a> </b>
+                        <p class="price">670сом</p>
+                    </div>
+                </div>
+                <div class="product__item">
+                    <div class="img_wrapper_item">
+                        <a href="http://monchok.me/#!/Tsvetnye-Ozherelya-v-stile-bokho/p/376190255">
+                            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/62684047/2431309797.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="about__text_content">
+                        <b><a href="http://monchok.me/#!/Tsvetnye-Ozherelya-v-stile-bokho/p/376190255">Цветные Ожерелья в стиле бохо</a> </b>
+                        <p class="price">450сом</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПРЕИМУЩЕСТВО ЭЛЕКТРОННОГО БУТИКА -->
+    <section class="advantages">
+        <div class="container">
+            <h1 class="text_title">преимущество электронного бутика</h1>
+            <div class="advantages__items">
+                <div class="advantages__item">
+                    <img class="advantages_icons" src="./img/icons/return.svg" alt="">
+                    <p class="advantages_text">Бесплатный возврат</p>
+                    <p class="advantages_inlinetext"> Мы возвращаем ваши деньги<br> если в течении 
+                        <b>10</b>-дней вы <br> не получил товар
+                    </p>
+                </div>
+                <div class="advantages__item">
+                    <img class="advantages_icons" src="./img/icons/delivery.svg" alt="">
+                    <p class="advantages_text">Бесплатный доставка</p>
+                    <p class="advantages_inlinetext"><b>Monchok.me</b> предлагает доставка <br>
+                        при покупке на сумму более <br>
+                        <b>2000сомов</b> <br>
+                    </p>
+                </div>
+                <div class="advantages__item">
+                    <img class="advantages_icons" src="./img/icons/gift-solid.svg" alt="">
+                    <p class="advantages_text">искусство дарить</p>
+                    <p>Ваш заказ <b>Monchok.me</b> <br>
+                        сублимирован в уникальной <br>
+                       фирменной каробке <b>Monchok.me</b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- subscribe -->
+    <div class="subscribe">
+        <div class="container">
+            <p>Введите свой адрес электронной почты, чтобы получать новости.</p>
+            <form>
+                <input type="email" placeholder="Email" name="emailSub">
+                <button class="btn_cart">Подписаться</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="help">
+                <h3>ПОДПИСЫВАЙТЕСЬ НА НАС</h3>
+                <ul>
+                    <li><a href="#"><i class="fab fa-telegram soc"></i>+996 990 909 113</a></li>
+                    <li><a href="https://wa.me/996990909113"><i class="fab fa-whatsapp soc"></i>+996 990 909 113</a></li>
+                    <li><a href="https://instagram.com/monchok.me"><i class="fab fa-instagram soc"></i>monchok.me</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Категории</h3>
+                <ul>
+                    <li><a href="jewelry.html">ОЖЕРЕЛЬЯ</a></li>
+                    <li><a href="bracelet.html">БРАСЛЕТЫ</a></li>
+                    <li><a href="earrings.html">Серьги</a></li>
+                    <li><a href="ring.html">КОЛЬЦА</a></li>
+                    <li><a href="accesuar.html">Аксессуары</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Меню сайта</h3>
+                <ul>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="about.html">О компани</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/jquery-2.1.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
